@@ -22,6 +22,7 @@ const SearchParams = () => {
   return (
     <div className="search-params">
       <form
+      className="p-10 mb-10 rounded-lg bg-gray-200 shadow-lg flex flex-col justify-center items-center"
         onSubmit={(e) => {
           e.preventDefault();
           const formData = new FormData(e.target);
